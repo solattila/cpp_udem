@@ -11,7 +11,11 @@
     * != not equal to
     * </<= less than / or equal to
     * >/>= greater than / or equal to
-
+    
+    Logical operators
+    * && and
+    * || or
+    * ! not
     
 
 */
@@ -69,6 +73,14 @@ int main(int argc, char const *argv[])
 
     age = 21;
     cout << (age >= 21) << endl;
+
+    bool isRaining = true;
+    bool isWarm = true;
+
+    cout << (isRaining && isWarm) << endl;
+    cout << (isRaining || isWarm) << endl;
+    cout << (!isRaining && isWarm) << endl;
+    cout << (!isRaining || isWarm) << endl;
 
     return 0;
 }
