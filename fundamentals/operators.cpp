@@ -1,10 +1,19 @@
 /*
     Arithmetic operators
-    + addition
-    - subtraction
-    * multiplication
-    / division
-    % modulus
+    * + addition
+    * - subtraction
+    * * multiplication
+    * / division
+    * % modulus
+
+    Relational operators
+    * == equal to
+    * != not equal to
+    * </<= less than / or equal to
+    * >/>= greater than / or equal to
+
+    
+
 */
 
 
@@ -42,6 +51,24 @@ int main(int argc, char const *argv[])
     myNum *= 2;
     myNum *= 2;
     cout << myNum << endl;
+
+    cout << boolalpha;
+
+    a = 15;
+    b = 20;
+    bool areequal = a == b;
+
+    cout << (a < b) << endl;
+    cout << areequal << endl;
+
+    int age = 32;
+    cout << (age >= 21) << endl;
+
+    age = 18;
+    cout << (age >= 21) << endl;
+
+    age = 21;
+    cout << (age >= 21) << endl;
 
     return 0;
 }
