@@ -30,6 +30,18 @@ int main(int argc, char const *argv[])
     result += 10;   // result = result + 10
     cout << "Result: " << result << endl;
 
+    int myInt = 10;
+    cout << myInt << endl;
+    myInt++;    //myInt = myInt + 1
+    cout << myInt << endl;
+    myInt--;    //myInt = myInt - 1
+
+    int myNum = 10;
+    myNum += 5;
+    myNum *= 2;
+    myNum *= 2;
+    myNum *= 2;
+    cout << myNum << endl;
 
     return 0;
 }
