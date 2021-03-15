@@ -15,6 +15,10 @@ class House
         string color;
 
     public:
+        House();
+        House(int numStories, int numWindows, string color);
+        ~House();
+
         int getNumStories() const;
         void setNumStories(int numStories);
 

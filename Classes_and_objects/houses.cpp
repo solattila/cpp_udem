@@ -14,6 +14,11 @@ int main()
     House myHouse;
     House yourHouse;
 
+    House otherHouse(6, 8, "grey");
+    
+
+    myHouse.printHouseData();
+
     myHouse.setNumStories(10);
     myHouse.setNumWindows(8);
     myHouse.setColor("blue");
@@ -24,6 +29,7 @@ int main()
 
     myHouse.printHouseData();
     yourHouse.printHouseData();
+    otherHouse.printHouseData();
 
     return 0;
 }
